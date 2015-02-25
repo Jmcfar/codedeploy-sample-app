@@ -11,7 +11,7 @@ hooks:
     - location: scripts/start_server
       timeout: 300
       runas: root
-    - location: scripts/elb/register_from_elb.sh
+    - location: scripts/elb/register_with_elb.sh
       timeout: 300
       runas: root
   ApplicationStop:
